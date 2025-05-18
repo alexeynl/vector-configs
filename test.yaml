@@ -10,6 +10,6 @@ transforms:
     file: "${VECTOR_CONFIG_PATH}/main/vrl/test.vrl"
 sinks:
   snk-test:
-    type: blackhol
+    type: blackhole
     inputs: 
       - tr-test
