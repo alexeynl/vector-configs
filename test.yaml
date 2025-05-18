@@ -7,6 +7,6 @@ transforms:
     type: transform
 sinks:
   snk-test:
-    type: dummy
+    type: blackhole
     inputs: 
       - tr-test
