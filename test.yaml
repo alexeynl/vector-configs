@@ -8,3 +8,5 @@ transforms:
 sinks:
   snk-test:
     type: dummy
+    inputs: 
+      - tr-test
