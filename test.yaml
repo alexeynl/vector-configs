@@ -7,7 +7,7 @@ transforms:
     type: remap
     inputs:
       - src-test
-    file: "main/vrl/test.vrl"
+    file: "${VECTOR_CONFIG_PATH}/main/vrl/test.vrl"
 sinks:
   snk-test:
     type: blackhole
