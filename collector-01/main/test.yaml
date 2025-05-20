@@ -12,4 +12,4 @@ sinks:
   snk-test:
     type: blackhole
     inputs: 
-      - tr-test
+      - tr-test 
