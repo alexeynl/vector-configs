@@ -3,10 +3,6 @@ rules:
     host_patterns: 
       - .*laptop-01-w.*
     root_dir: laptop-01-w
-    includes:
-      - main
-      - syslog/**
-      - http/**
   rule-02:
     host_patterns: 
       - .*collector-02.*
