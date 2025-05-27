@@ -4,9 +4,10 @@ sources:
     address: 127.0.0.1:10001
 transforms:
   tr-test:
-    type: transform
+    type: remap
     inputs:
       - src-test
+    source: |-
 sinks:
   snk-test:
     type: blackhole
