@@ -1,8 +1,8 @@
 rules:
   rule-01:
     host_patterns: 
-      - .*collector-01.*
-    root_dir: collector-01
+      - .*laptop-01-w.*
+    root_dir: laptop-01-w
     includes:
       - main
       - syslog/**
