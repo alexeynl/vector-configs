@@ -5,10 +5,10 @@ sources:
 transforms:
   tr-test:
     type: transform
-  inputs:
-    - src-test
+    inputs:
+      - src-test
 sinks:
   snk-test:
     type: blackhole
-  inputs:
-    - tr-test
+    inputs:
+      - tr-test
