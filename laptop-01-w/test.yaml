@@ -5,6 +5,8 @@ sources:
 transforms:
   tr-test:
     type: transform
+  inputs:
+    - src-test
 sinks:
   snk-test:
-    type: dummy
+    type: blackhole
