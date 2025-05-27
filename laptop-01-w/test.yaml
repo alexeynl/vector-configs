@@ -1,7 +1,7 @@
 sources:
   src-test:
     type: vector
-    address: 127.0.0.1
+    address: 127.0.0.1:10001
 transforms:
   tr-test:
     type: transform
