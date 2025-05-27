@@ -10,3 +10,5 @@ transforms:
 sinks:
   snk-test:
     type: blackhole
+  inputs:
+    - tr-test
