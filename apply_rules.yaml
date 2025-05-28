@@ -3,6 +3,8 @@ rules:
     host_patterns: 
       - .*laptop-01-w.*
     root_dir: laptop-01-w
+    includes:
+      - main/**
   rule-02:
     host_patterns: 
       - .*collector-02.*
